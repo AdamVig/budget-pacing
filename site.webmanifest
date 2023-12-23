@@ -1,0 +1,11 @@
+{
+  "short_name": "Budget Pacing",
+  "name": "Budget Pacing",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "background_color": "#e5ddcb",
+  "theme_color": "#e5ddcb"
+}

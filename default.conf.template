@@ -1,0 +1,6 @@
+server {
+	location /api/ {
+		proxy_set_header Authorization Bearer ${YNAB_TOKEN};
+		proxy_pass https://api.ynab.com/v1/;
+	}
+}
